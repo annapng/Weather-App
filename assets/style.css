@@ -1,0 +1,123 @@
+.headerDiv {
+    border: 1px solid black;
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    top:0;
+    bottom:0;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 0;
+    bottom: 0;
+
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sideDiv {
+    border: 1px solid black;
+    width: 25%;
+    height: 83%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainDiv {
+    border: 1px solid black;
+    width: 74%;
+    height: 83%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#searchArea {
+    text-align: center;
+    
+}
+
+#prevSearched {
+    border: 1px solid black;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+} /* vertically stacked using flexbox */
+
+
+#searchArea {
+    height: 20px;
+    width: 100%;
+    position: relative;
+}
+
+#todaysForecast {
+    border: 1px solid black;
+    height: 35%;
+    width: 100%;
+    position: relative;
+}
+
+#todaysIcon {
+    margin-right: 20px;
+    position: relative;
+}
+
+#futureForecastContainer {
+    border: 1px solid black;
+    height: 64%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    display: flex;
+}
+
+.futureForecastDivs {
+    border: 1px solid black;
+    flex-grow: 1;
+    height: 100%;
+    bottom: 0;
+}
+
+.futureForecastDivs + .futureForecastDivs {
+    margin-left: 1%;
+}
+
+.futureForecastDivs img {
+    position: relative;
+    width: 80%;
+}
+
+#prevSearched {
+    text-align: center;
+}
+
+#prevSearched button {
+    color: black;
+    font-size: 16px;
+    background-color: lightgrey;
+    border: 1.5px black solid;
+    width: 80%;
+}
+
+#prevSearched button:hover {
+    color: white;
+    background-color: darkcyan;
+    transition-duration: 1s;
+}

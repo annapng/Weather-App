@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="assets\style.css">
+  <title>Weather App</title>
+</head>
+<body>
+<div class="headerDiv"><h1>Weather Dashboard</h1></div>
+
+<div class="sideDiv">
+<form id="weatherSearch">
+<div id="searchArea"><label for="search">Search for a city: </label></div><br>
+<div id="searchArea"><input type="text" id="textboxSearch" name="search"></div><br>
+<div id="searchArea"><button type="submit" 
+  value="submit" id="searchBtn">Search!</button></form></div>
+<div id="prevSearched"> </div>
+
+
+<div class="mainDiv">
+<div id="todaysForecast">
+<div id="todaysMain"></div>
+<div id="todaysIcon"></div>
+<div id="todaysTemp"></div>
+<div id="todaysWind"></div>
+<div id="todaysHumidity"></div>
+
+</div>
+
+
+<div id="futureForecastContainer">
+
+<div class="futureForecastDivs" id="futureDiv1"></div>
+<div class="futureForecastDivs" id="futureDiv2"></div>
+<div class="futureForecastDivs" id="futureDiv3"></div>
+<div class="futureForecastDivs" id="futureDiv4"></div>
+<div class="futureForecastDivs" id="futureDiv5"></div>
+
+</div>
+
+
+
+</div>
+
+<script src="assets\script.js"></script>
+</body>
+</html>
