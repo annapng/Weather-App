@@ -30,5 +30,5 @@ To get both current and future weather data, I used [OpenWeather API](https://op
 ![Screenshot of Weather App](assets\Screenshot.png)
 
 ## Links 
-Repo: 
-Deployed App:
+Repo: https://github.com/annapng/Weather-App 
+Deployed App: https://annapng.github.io/Weather-App/
